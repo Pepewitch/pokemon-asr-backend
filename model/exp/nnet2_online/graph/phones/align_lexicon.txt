@@ -1,0 +1,64 @@
+<SIL> <SIL> SIL_S
+<UNK> <UNK> UNK_S
+<eps> <eps> SIL
+กลับ กลับ kl_B a_I p^_E
+ขอ ขอ kh_B @@_E
+ขิก ขิก kh_B i_I k^_E
+คลอว์ คลอว์ khl_B @@_I oo_E
+ควิก ควิก kh_B a_I w_I i_I k^_E
+คอนฟิวชั่น คอนฟิวชั่น kh_B @_I n^_I f_I i_I w^_I ch_I a_I n^_E
+คอยคิง คอยคิง kh_B @_I j^_I kh_I i_I ng^_E
+ฉัน ฉัน ch_B a_I n^_E
+ซุปเปอร์ ซุปเปอร์ s_B u_I p^_I p_I qq_E
+ดราก้อน ดราก้อน d_B a_I r_I aa_I k_I @@_I n^_E
+ดิ้น ดิ้น d_B i_I n^_E
+ตัว ตัว t_B uua_E
+ทำลาย ทำลาย th_B a_I m^_I l_I aa_I j^_E
+ท้า ท้า th_B aa_E
+ธันเดอร์ ธันเดอร์ th_B a_I n^_I d_I @@_E
+นัทธี นัทธี n_B a_I t^_I th_I ii_E
+นาย นาย n_B aa_I j^_E
+บอดี้ บอดี้ b_B @@_I d_I ii_E
+บีม บีม b_B ii_I m^_E
+ปั๊มพ์ ปั๊มพ์ p_B a_I o_I m^_E
+ปิกาจู ปิกาจู p_B i_I k_I aa_I c_I uu_E
+พิโรธ พิโรธ ph_B i_I r_I oo_I t^_E
+พีรพล พีรพล ph_B ii_I r_I ph_I o_I n^_E
+มังกร มังกร m_B a_I ng^_I k_I @@_I n^_E
+มา มา m_B aa_E
+มิวทู มิวทู m_B i_I w^_I th_I uu_E
+ลาปลาซ ลาปลาซ l_B aa_I pl_I aa_I t^_E
+ลำแสง ลำแสง l_B a_I m^_I s_I xx_I ng^_E
+ลิซาดอน ลิซาดอน l_B i_I s_I aa_I d_I @@_I n^_E
+ล้าง ล้าง l_B aa_I ng^_E
+วิง วิง w_B i_I ng^_E
+สวิฟฟ์ สวิฟฟ์ s_B a_I w_I i_I p^_E
+สแปลช สแปลช s_B pl_I xx_I t^_E
+อติวงศ์ อติวงศ์ z_B a_I t_I i_I w_I o_I ng^_E
+เกม เกม k_B o_I m^_E
+เทลล์ เทลล์ th_B ee_I e_I w^_E
+เปลี่ยน เปลี่ยน pl_B iia_I n^_E
+เฟลม เฟลม f_B l_I o_I m^_E
+เรจช์ เรจช์ r_B oo_E
+เลือก เลือก l_B vva_I k^_E
+เล่น เล่น l_B e_I n^_E
+เสิร์ฟ เสิร์ฟ s_B ee_I qq_I f^_E
+เอกพล เอกพล z_B ee_I k^_I k_I a_I ph_I o_I n^_E
+แม็กซ์ แม็กซ์ m_B e_I k^_I s_E
+แสน แสน s_B xx_I n^_E
+แสลม แสลม s_B a_I l_I xx_I m^_E
+แอทแทค แอทแทค z_B xx_I t^_I th_I e_I k^_E
+โกวาจี โกวาจี k_B oo_I w_I aa_I c_I ii_E
+โทรวเวอร์ โทรวเวอร์ th_B oo_I r_I a_I w_I a_I w_I ee_I qq_E
+โบลต์ โบลต์ b_B oo_I l_E
+โพชั่น โพชั่น ph_B oo_I ch_I a_I n^_E
+โวลต์ โวลต์ uua_B n^_E
+ใช้ ใช้ ch_B a_I j^_E
+ไคริว ไคริว khr_B i_I w^_E
+ไซต์ ไซต์ s_B a_I j^_E
+ไซต์์ ไซต์์ s_B a_I j^_E
+ไฟฟ้า ไฟฟ้า f_B a_I j^_I f_I aa_E
+ไอซ์ ไอซ์ z_B s_E
+ไอร่อน ไอร่อน z_B a_I r_I @_I n^_E
+ไฮเปอร์ ไฮเปอร์ h_B p_I qq_E
+ไฮโดร ไฮโดร h_B d_I oo_I n^_E

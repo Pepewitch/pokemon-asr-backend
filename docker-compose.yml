@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  kaldi:
+    image: jcsilva/docker-kaldi-gstreamer-server:latest
+    ports:
+      - 8080:80
+    volumes:
+      - ./model:/opt/models
+    command: 
+      - sh
+      - -c
+      - /opt/models/script.sh

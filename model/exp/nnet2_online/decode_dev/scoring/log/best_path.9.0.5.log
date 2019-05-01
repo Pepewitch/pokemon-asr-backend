@@ -1,0 +1,482 @@
+# lattice-scale --inv-acoustic-scale=9 "ark:gunzip -c exp/nnet2_online/decode_dev/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- | lattice-best-path --word-symbol-table=exp/nnet2_online/graph/words.txt ark:- ark,t:exp/nnet2_online/decode_dev/scoring/9.0.5.tra 
+# Started at Tue Apr 30 04:29:02 UTC 2019
+#
+lattice-add-penalty --word-ins-penalty=0.5 ark:- ark:- 
+lattice-best-path --word-symbol-table=exp/nnet2_online/graph/words.txt ark:- ark,t:exp/nnet2_online/decode_dev/scoring/9.0.5.tra 
+lattice-scale --inv-acoustic-scale=9 'ark:gunzip -c exp/nnet2_online/decode_dev/lat.*.gz|' ark:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0000, best cost 23.8024 + -34.9948 = -11.1924 over 226 frames.
+pepe0000 เปลี่ยน ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0001, best cost 46.4399 + -20.0455 = 26.3945 over 198 frames.
+pepe0001 เลือก ไอซ์ แสลม ลาปลาซ คลอว์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0002, best cost 45.1313 + -35.2563 = 9.87503 over 226 frames.
+pepe0002 เปลี่ยน อติวงศ์ มา เปลี่ยน เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0003, best cost 39.7908 + -27.5407 = 12.25 over 198 frames.
+pepe0003 เปลี่ยน ตัว โพชั่น มา เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0004, best cost 29.2048 + -7.41295 = 21.7919 over 171 frames.
+pepe0004 เปลี่ยน ธันเดอร์ คลอว์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0005, best cost 24.7598 + -21.7436 = 3.01614 over 143 frames.
+pepe0005 เปลี่ยน ตัว ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0006, best cost 24.1696 + -16.8901 = 7.27952 over 143 frames.
+pepe0006 วิง โพชั่น 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0007, best cost 24.9341 + -14.3179 = 10.6161 over 161 frames.
+pepe0007 แสลม ควิก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0008, best cost 15.4574 + -12.5694 = 2.88797 over 143 frames.
+pepe0008 เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0009, best cost 29.4097 + -41.5908 = -12.1811 over 180 frames.
+pepe0009 เปลี่ยน เกม เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0010, best cost 23.7956 + -14.217 = 9.57864 over 161 frames.
+pepe0010 ไฮเปอร์ เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0011, best cost 36.3365 + -24.4856 = 11.8509 over 171 frames.
+pepe0011 เลือก กลับ ไฮเปอร์ เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0012, best cost 30.8211 + -32.4495 = -1.62836 over 180 frames.
+pepe0012 ล้าง เกม เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0013, best cost 41.4232 + -44.0145 = -2.59132 over 189 frames.
+pepe0013 ลาปลาซ โบลต์ เอกพล เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0014, best cost 30.1539 + -18.1169 = 12.0369 over 180 frames.
+pepe0014 เปลี่ยน ไฮเปอร์ เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0015, best cost 25.4624 + -31.2412 = -5.7788 over 161 frames.
+pepe0015 วิง ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0016, best cost 17.0337 + -28.3598 = -11.3261 over 124 frames.
+pepe0016 เปลี่ยน ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0017, best cost 21.0817 + -10.9736 = 10.1082 over 124 frames.
+pepe0017 เปลี่ยน แอทแทค 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0018, best cost 27.0678 + -29.7835 = -2.7157 over 143 frames.
+pepe0018 เปลี่ยน ไอซ์ เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0019, best cost 16.4479 + -18.452 = -2.00414 over 124 frames.
+pepe0019 เปลี่ยน ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0020, best cost 17.1337 + -23.1943 = -6.06059 over 133 frames.
+pepe0020 เปลี่ยน ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0021, best cost 24.9729 + -18.5483 = 6.42456 over 106 frames.
+pepe0021 เปลี่ยน ตัว โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0022, best cost 26.4105 + -2.77274 = 23.6378 over 152 frames.
+pepe0022 เปลี่ยน ไอร่อน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0023, best cost 24.9122 + -36.8246 = -11.9123 over 161 frames.
+pepe0023 วิง ลิซาดอน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0024, best cost 23.3803 + -20.2146 = 3.16568 over 115 frames.
+pepe0024 วิง เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0025, best cost 24.3932 + -16.6915 = 7.70164 over 143 frames.
+pepe0025 เปลี่ยน ตัว ลิซาดอน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0026, best cost 18.0456 + -17.1267 = 0.918938 over 133 frames.
+pepe0026 เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0027, best cost 14.2374 + -15.6167 = -1.37935 over 115 frames.
+pepe0027 ลิซาดอน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0028, best cost 13.5898 + -19.5252 = -5.93538 over 106 frames.
+pepe0028 เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0029, best cost 26.4597 + -40.0378 = -13.5781 over 124 frames.
+pepe0029 เลือก ไอซ์ ไคริว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0030, best cost 20.3429 + -17.3174 = 3.02553 over 124 frames.
+pepe0030 เลือก เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0031, best cost 33.8325 + -38.788 = -4.95551 over 152 frames.
+pepe0031 เลือก ตัว กลับ เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0032, best cost 21.2922 + -27.4973 = -6.20513 over 143 frames.
+pepe0032 เลือก เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0033, best cost 22.4823 + -17.275 = 5.20728 over 115 frames.
+pepe0033 เลือก โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0034, best cost 21.7655 + -43.826 = -22.0605 over 124 frames.
+pepe0034 เลือก เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0035, best cost 22.0325 + -12.9996 = 9.03288 over 124 frames.
+pepe0035 ลาปลาซ ลาปลาซ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0036, best cost 27.9864 + -19.9011 = 8.08525 over 133 frames.
+pepe0036 เปลี่ยน ไฮโดร เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0037, best cost 31.4935 + -30.8292 = 0.664274 over 180 frames.
+pepe0037 เปลี่ยน ตัว ไอซ์ ลาปลาซ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0038, best cost 22.5776 + -11.6729 = 10.9047 over 180 frames.
+pepe0038 เลือก ลาปลาซ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0039, best cost 31.4491 + -18.6884 = 12.7606 over 152 frames.
+pepe0039 ไฮโดร ควิก ลาปลาซ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0040, best cost 28.8065 + -30.0731 = -1.26651 over 133 frames.
+pepe0040 ตัว เกม ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0041, best cost 34.379 + -31.084 = 3.29499 over 161 frames.
+pepe0041 เลือก ตัว โบลต์ เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0042, best cost 27.0868 + -20.5156 = 6.57115 over 124 frames.
+pepe0042 กลับ โบลต์ เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0043, best cost 24.0013 + -8.79503 = 15.2063 over 143 frames.
+pepe0043 ลาปลาซ ใช้ ลาปลาซ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0044, best cost 18.8349 + -13.6059 = 5.229 over 124 frames.
+pepe0044 กลับ มา คอยคิง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0045, best cost 29.4803 + -20.4492 = 9.03102 over 124 frames.
+pepe0045 โวลต์ บีม บอดี้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0046, best cost 29.3121 + -27.739 = 1.57311 over 143 frames.
+pepe0046 ลาปลาซ ซุปเปอร์ เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0100, best cost 20.1287 + -28.5184 = -8.38972 over 189 frames.
+pepe0100 ท้า นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0101, best cost 25.1388 + -49.7385 = -24.5997 over 235 frames.
+pepe0101 เลือก ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0102, best cost 33.3689 + -17.0262 = 16.3428 over 198 frames.
+pepe0102 นัทธี ธันเดอร์ คลอว์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0103, best cost 34.4263 + -31.5948 = 2.83149 over 254 frames.
+pepe0103 ขอ ไฮโดร บอดี้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0104, best cost 23.8222 + -17.5594 = 6.26279 over 208 frames.
+pepe0104 คอยคิง ฉัน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0105, best cost 22.7695 + -31.4479 = -8.67838 over 143 frames.
+pepe0105 ขอ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0106, best cost 34.7673 + -30.3214 = 4.44585 over 133 frames.
+pepe0106 เลือก โบลต์ ไอซ์ สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0107, best cost 44.2704 + -45.1538 = -0.883408 over 161 frames.
+pepe0107 เรจช์ โบลต์ เกม ไอซ์ สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0108, best cost 27.6557 + -27.9462 = -0.290583 over 143 frames.
+pepe0108 เลือก โบลต์ ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0109, best cost 32.287 + -26.439 = 5.84804 over 189 frames.
+pepe0109 นาย ไฮเปอร์ สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0110, best cost 24.9617 + 2.20621 = 27.1679 over 180 frames.
+pepe0110 ล้าง ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0111, best cost 23.5737 + -14.8839 = 8.68976 over 198 frames.
+pepe0111 เปลี่ยน ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0112, best cost 29.8204 + -46.3519 = -16.5315 over 208 frames.
+pepe0112 ลิซาดอน ขอ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0113, best cost 31.9518 + -32.3432 = -0.391439 over 217 frames.
+pepe0113 ลาปลาซ บอดี้ เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0114, best cost 23.2681 + -32.7177 = -9.44959 over 217 frames.
+pepe0114 ขอ ท้า นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0115, best cost 28.9736 + -35.0097 = -6.03614 over 161 frames.
+pepe0115 ตัว โบลต์ ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0116, best cost 22.0619 + -27.7704 = -5.70856 over 152 frames.
+pepe0116 โบลต์ ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0117, best cost 17.713 + -10.0674 = 7.64557 over 115 frames.
+pepe0117 ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0118, best cost 25.2661 + -22.6864 = 2.57969 over 152 frames.
+pepe0118 นัทธี ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0119, best cost 22.516 + -29.823 = -7.30705 over 152 frames.
+pepe0119 เลือก ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0120, best cost 19.6092 + -21.8823 = -2.27307 over 152 frames.
+pepe0120 ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0121, best cost 23.0565 + -19.1398 = 3.91677 over 152 frames.
+pepe0121 เปลี่ยน ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0122, best cost 30.0004 + -13.8973 = 16.1031 over 161 frames.
+pepe0122 เลือก ซุปเปอร์ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0123, best cost 28.9178 + -28.0002 = 0.917627 over 133 frames.
+pepe0123 เลือก ซุปเปอร์ ไอซ์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0124, best cost 22.6006 + -28.5607 = -5.96007 over 152 frames.
+pepe0124 เลือก ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0125, best cost 14.9883 + -18.6471 = -3.65878 over 152 frames.
+pepe0125 ลิซาดอน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0126, best cost 15.0146 + -19.1681 = -4.15345 over 152 frames.
+pepe0126 ลิซาดอน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0127, best cost 21.6664 + -26.7634 = -5.09699 over 115 frames.
+pepe0127 เลือก บอดี้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0128, best cost 20.2394 + -23.9795 = -3.74014 over 133 frames.
+pepe0128 เปลี่ยน โวลต์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0129, best cost 16.6556 + -34.2088 = -17.5531 over 133 frames.
+pepe0129 ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0130, best cost 24.7815 + -42.1685 = -17.387 over 161 frames.
+pepe0130 บีม ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0131, best cost 29.2615 + -31.4022 = -2.14077 over 161 frames.
+pepe0131 เปลี่ยน ไอซ์ กลับ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0132, best cost 15.1504 + -27.7512 = -12.6008 over 161 frames.
+pepe0132 เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0133, best cost 20.2241 + -25.9429 = -5.71874 over 124 frames.
+pepe0133 เลือก ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0134, best cost 13.8529 + -18.5211 = -4.66815 over 115 frames.
+pepe0134 ลิซาดอน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0135, best cost 23.2071 + -31.2313 = -8.0242 over 180 frames.
+pepe0135 ลาปลาซ ไฮโดร 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0136, best cost 25.4562 + -21.367 = 4.0892 over 161 frames.
+pepe0136 บอดี้ เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0137, best cost 24.7517 + -30.3415 = -5.58978 over 217 frames.
+pepe0137 ลิซาดอน ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0138, best cost 30.5658 + -30.604 = -0.0382729 over 180 frames.
+pepe0138 ลิซาดอน ไอซ์ สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0139, best cost 36.4142 + -37.5004 = -1.08613 over 180 frames.
+pepe0139 เลือก บีม บอดี้ พิโรธ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0140, best cost 22.2655 + -48.1166 = -25.8511 over 152 frames.
+pepe0140 เลือก ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0141, best cost 29.1548 + -39.8174 = -10.6626 over 161 frames.
+pepe0141 เลือก ตัว ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0142, best cost 29.0532 + -33.4863 = -4.43314 over 171 frames.
+pepe0142 ตัว ท้า ไคริว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0143, best cost 24.3619 + -34.5419 = -10.18 over 171 frames.
+pepe0143 นัทธี เทลล์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0144, best cost 26.2759 + -44.8698 = -18.5938 over 171 frames.
+pepe0144 วิง ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0145, best cost 31.7606 + -61.2089 = -29.4484 over 198 frames.
+pepe0145 นัทธี ท้า บอดี้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0146, best cost 26.4339 + -42.2528 = -15.8189 over 198 frames.
+pepe0146 นัทธี ฉัน ขอ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0200, best cost 24.9465 + -22.4012 = 2.54531 over 198 frames.
+pepe0200 ท้า ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0201, best cost 24.4738 + -53.7384 = -29.2646 over 217 frames.
+pepe0201 เปลี่ยน ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0202, best cost 26.3569 + -59.9691 = -33.6122 over 254 frames.
+pepe0202 เลือก ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0203, best cost 33.7545 + -31.2533 = 2.50119 over 226 frames.
+pepe0203 ลิซาดอน บีม บอดี้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0204, best cost 28.1226 + -33.0709 = -4.94831 over 217 frames.
+pepe0204 คอยคิง เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0205, best cost 29.6094 + -57.3011 = -27.6917 over 180 frames.
+pepe0205 เลือก นาย ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0206, best cost 24.7681 + -18.6677 = 6.10046 over 133 frames.
+pepe0206 ควิก วิง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0207, best cost 33.1506 + -49.2083 = -16.0577 over 208 frames.
+pepe0207 ท้า ไฮเปอร์ สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0208, best cost 27.8666 + -25.6273 = 2.23936 over 133 frames.
+pepe0208 เลือก โบลต์ ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0209, best cost 32.6461 + -26.3401 = 6.30597 over 198 frames.
+pepe0209 นาย ไฮเปอร์ สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0210, best cost 25.5457 + -24.8355 = 0.710197 over 217 frames.
+pepe0210 ล้าง ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0211, best cost 30.1723 + -8.76114 = 21.4111 over 198 frames.
+pepe0211 เปลี่ยน ซุปเปอร์ พิโรธ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0212, best cost 26.3353 + -38.0714 = -11.7361 over 235 frames.
+pepe0212 ล้าง ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0213, best cost 33.5689 + -32.4948 = 1.07402 over 198 frames.
+pepe0213 วิง ปั๊มพ์ ไซต์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0214, best cost 31.9915 + -38.3815 = -6.38999 over 217 frames.
+pepe0214 เปลี่ยน ซุปเปอร์ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0215, best cost 24.2037 + -38.155 = -13.9513 over 189 frames.
+pepe0215 เลือก เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0216, best cost 23.3208 + -32.4824 = -9.16157 over 133 frames.
+pepe0216 เลือก ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0217, best cost 19.1205 + -26.249 = -7.12851 over 171 frames.
+pepe0217 ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0218, best cost 22.3681 + -23.5825 = -1.21445 over 143 frames.
+pepe0218 เลือก เทลล์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0219, best cost 22.329 + -31.3628 = -9.03381 over 152 frames.
+pepe0219 เปลี่ยน ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0220, best cost 18.9388 + -31.4512 = -12.5125 over 171 frames.
+pepe0220 เล่น เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0221, best cost 18.6528 + -20.4949 = -1.8421 over 161 frames.
+pepe0221 ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0222, best cost 26.1797 + -21.6587 = 4.52098 over 180 frames.
+pepe0222 ซุปเปอร์ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0223, best cost 31.1008 + -34.0839 = -2.98308 over 161 frames.
+pepe0223 วิง โบลต์ ไอซ์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0224, best cost 26.4257 + -45.4121 = -18.9864 over 161 frames.
+pepe0224 วิง เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0225, best cost 30.0497 + -28.9352 = 1.11451 over 143 frames.
+pepe0225 ลำแสง ขอ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0226, best cost 16.5632 + -21.8082 = -5.24496 over 189 frames.
+pepe0226 นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0227, best cost 20.9294 + -37.0991 = -16.1697 over 152 frames.
+pepe0227 เลือก บีม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0228, best cost 15.0093 + -20.6507 = -5.64133 over 133 frames.
+pepe0228 เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0229, best cost 16.1916 + -35.8581 = -19.6665 over 124 frames.
+pepe0229 ล้าง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0230, best cost 15.4306 + -29.6539 = -14.2234 over 143 frames.
+pepe0230 คอยคิง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0231, best cost 29.4343 + -41.6946 = -12.2603 over 161 frames.
+pepe0231 เปลี่ยน ไอซ์ พีรพล 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0232, best cost 22.1653 + -28.635 = -6.4697 over 124 frames.
+pepe0232 นาย กลับ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0233, best cost 17.3512 + -26.2131 = -8.86198 over 152 frames.
+pepe0233 ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0234, best cost 27.5895 + -38.7279 = -11.1385 over 133 frames.
+pepe0234 เลือก เปลี่ยน ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0235, best cost 22.21 + -11.9909 = 10.2192 over 124 frames.
+pepe0235 ลาปลาซ ไฮโดร 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0236, best cost 23.4012 + -16.3168 = 7.08444 over 152 frames.
+pepe0236 ลำแสง ลาปลาซ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0237, best cost 24.7388 + -23.3904 = 1.34844 over 208 frames.
+pepe0237 นาย ไฮโดร 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0238, best cost 23.8881 + -35.818 = -11.9298 over 198 frames.
+pepe0238 ลิซาดอน สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0239, best cost 18.4338 + -20.102 = -1.66814 over 171 frames.
+pepe0239 เลือก นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0240, best cost 23.417 + -52.2112 = -28.7942 over 180 frames.
+pepe0240 เลือก ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0241, best cost 23.9063 + -24.7582 = -0.851961 over 171 frames.
+pepe0241 ตัว ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0242, best cost 36.2469 + -49.0217 = -12.7748 over 189 frames.
+pepe0242 เลือก ตัว บีม ไอซ์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0243, best cost 19.0783 + -30.305 = -11.2267 over 180 frames.
+pepe0243 สวิฟฟ์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0244, best cost 29.893 + -46.0856 = -16.1926 over 189 frames.
+pepe0244 ตัว มา ไฮเปอร์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0245, best cost 29.94 + -35.3107 = -5.3707 over 189 frames.
+pepe0245 ลาปลาซ บอดี้ ไคริว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0246, best cost 25.0933 + -39.6075 = -14.5141 over 171 frames.
+pepe0246 ลาปลาซ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0300, best cost 16.4417 + -11.7961 = 4.64564 over 217 frames.
+pepe0300 นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0301, best cost 20.2282 + -10.4223 = 9.80591 over 226 frames.
+pepe0301 ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0302, best cost 21.1369 + -23.1223 = -1.98539 over 226 frames.
+pepe0302 นัทธี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0303, best cost 40.331 + -40.837 = -0.506035 over 254 frames.
+pepe0303 เลือก ซุปเปอร์ ตัว บอดี้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0304, best cost 29.8174 + -37.8018 = -7.98436 over 235 frames.
+pepe0304 นัทธี เกม นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0305, best cost 25.3416 + -31.3808 = -6.03914 over 171 frames.
+pepe0305 เกม ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0306, best cost 23.6442 + -29.8785 = -6.2343 over 161 frames.
+pepe0306 วิง พิโรธ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0307, best cost 38.642 + -54.0179 = -15.3759 over 180 frames.
+pepe0307 เปลี่ยน ตัว เกม ไอซ์ วิง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0308, best cost 28.123 + -29.7596 = -1.63661 over 161 frames.
+pepe0308 เลือก โบลต์ ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0309, best cost 29.9411 + -29.2589 = 0.68224 over 198 frames.
+pepe0309 เปลี่ยน ซุปเปอร์ เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0310, best cost 22.4789 + -21.0167 = 1.46222 over 208 frames.
+pepe0310 เลือก เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0311, best cost 25.9159 + -21.5362 = 4.3797 over 198 frames.
+pepe0311 ลิซาดอน เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0312, best cost 31.7933 + -25.7259 = 6.06743 over 208 frames.
+pepe0312 นาย ไฮโดร ปิกาจู 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0313, best cost 28.1009 + -34.3665 = -6.26567 over 189 frames.
+pepe0313 ลาปลาซ บอดี้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0314, best cost 15.533 + -17.3495 = -1.81655 over 180 frames.
+pepe0314 เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0315, best cost 33.4476 + -34.4545 = -1.00685 over 152 frames.
+pepe0315 เลือก ท้า โบลต์ ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0316, best cost 23.8658 + -32.7448 = -8.87892 over 143 frames.
+pepe0316 ลาปลาซ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0317, best cost 17.4083 + -13.476 = 3.93229 over 152 frames.
+pepe0317 เลือก นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0318, best cost 27.7748 + -49.4287 = -21.654 over 171 frames.
+pepe0318 เลือก ไอซ์ ไฮเปอร์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0319, best cost 27.9206 + -44.8115 = -16.8909 over 161 frames.
+pepe0319 เปลี่ยน ขอ คลอว์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0320, best cost 15.5401 + -12.1084 = 3.43171 over 180 frames.
+pepe0320 เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0321, best cost 24.1014 + -26.0345 = -1.93303 over 161 frames.
+pepe0321 เปลี่ยน เอกพล 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0322, best cost 30.519 + -31.0144 = -0.495453 over 198 frames.
+pepe0322 เลือก พีรพล คลอว์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0323, best cost 31.2662 + -37.07 = -5.8038 over 161 frames.
+pepe0323 วิง โบลต์ ไอซ์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0324, best cost 25.4631 + -28.0814 = -2.61831 over 124 frames.
+pepe0324 วิง เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0325, best cost 30.1 + -30.7257 = -0.625748 over 152 frames.
+pepe0325 ซุปเปอร์ ตัว โวลต์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0326, best cost 31.6407 + -58.4575 = -26.8167 over 208 frames.
+pepe0326 บีม ไฮเปอร์ เทลล์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0327, best cost 22.4112 + -30.149 = -7.73782 over 133 frames.
+pepe0327 เลือก บอดี้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0328, best cost 22.1123 + -27.2908 = -5.17848 over 115 frames.
+pepe0328 เลือก สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0329, best cost 27.0063 + -45.7406 = -18.7343 over 143 frames.
+pepe0329 เลือก ไอซ์ ไคริว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0330, best cost 21.0782 + -22.3867 = -1.30856 over 152 frames.
+pepe0330 เลือก เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0331, best cost 27.9433 + -31.7629 = -3.81963 over 152 frames.
+pepe0331 เลือก ตัว ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0332, best cost 22.4162 + -35.6504 = -13.2342 over 133 frames.
+pepe0332 นาย กลับ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0333, best cost 20.402 + -30.0771 = -9.67515 over 152 frames.
+pepe0333 เลือก ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0334, best cost 21.0045 + -31.4424 = -10.4379 over 133 frames.
+pepe0334 เลือก เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0335, best cost 30.6251 + -33.4078 = -2.78267 over 152 frames.
+pepe0335 นาย ไฮโดร สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0336, best cost 24.1014 + -24.2167 = -0.115282 over 161 frames.
+pepe0336 ลิซาดอน สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0337, best cost 22.7629 + -17.7154 = 5.04751 over 189 frames.
+pepe0337 ลิซาดอน พิโรธ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0338, best cost 34.7224 + -27.7368 = 6.98565 over 189 frames.
+pepe0338 บอดี้ แสลม บอดี้ แสลม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0339, best cost 25.3275 + -47.2839 = -21.9564 over 217 frames.
+pepe0339 เลือก เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0340, best cost 23.4088 + -27.9647 = -4.55588 over 171 frames.
+pepe0340 เปลี่ยน ซุปเปอร์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0341, best cost 25.1217 + -32.015 = -6.89329 over 180 frames.
+pepe0341 นัทธี ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0342, best cost 25.4577 + -28.4482 = -2.99051 over 180 frames.
+pepe0342 นัทธี เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0343, best cost 19.1075 + -19.6233 = -0.515804 over 189 frames.
+pepe0343 ซุปเปอร์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0344, best cost 28.038 + -38.2468 = -10.2089 over 189 frames.
+pepe0344 ลาปลาซ มา ไฮเปอร์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0345, best cost 24.2645 + -41.1338 = -16.8693 over 189 frames.
+pepe0345 ลาปลาซ บอดี้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0346, best cost 25.2301 + -32.624 = -7.3939 over 171 frames.
+pepe0346 นัทธี เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0400, best cost 34.4326 + -40.7105 = -6.27788 over 226 frames.
+pepe0400 ท้า ไฮเปอร์ สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0401, best cost 23.6778 + -26.2105 = -2.53269 over 273 frames.
+pepe0401 ตัว นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0402, best cost 40.1884 + -28.1097 = 12.0788 over 263 frames.
+pepe0402 เปลี่ยน ตัว ไอซ์ พีรพล นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0403, best cost 21.3531 + -35.3087 = -13.9556 over 273 frames.
+pepe0403 เลือก นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0404, best cost 28.8629 + -38.4683 = -9.60549 over 273 frames.
+pepe0404 เปลี่ยน ไฟฟ้า นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0405, best cost 25.2995 + -36.9877 = -11.6882 over 180 frames.
+pepe0405 เรจช์ ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0406, best cost 25.7541 + -30.2437 = -4.48961 over 180 frames.
+pepe0406 เปลี่ยน ตัว ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0407, best cost 26.3282 + -24.6214 = 1.70682 over 198 frames.
+pepe0407 แสลม วิง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0408, best cost 29.9786 + -37.9279 = -7.94936 over 161 frames.
+pepe0408 เรจช์ โบลต์ ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0409, best cost 25.7875 + -22.0423 = 3.74528 over 217 frames.
+pepe0409 นัทธี ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0410, best cost 23.7317 + -14.0825 = 9.64923 over 217 frames.
+pepe0410 เลือก ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0411, best cost 32.395 + -20.9763 = 11.4186 over 217 frames.
+pepe0411 เปลี่ยน ซุปเปอร์ พีรพล 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0412, best cost 43.8095 + -44.0157 = -0.206238 over 226 frames.
+pepe0412 นาย ไฮโดร ขอ โบลต์ ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0413, best cost 32.6882 + -27.33 = 5.35823 over 217 frames.
+pepe0413 วิง บอดี้ เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0414, best cost 28.24 + -41.9024 = -13.6624 over 217 frames.
+pepe0414 เลือก ซุปเปอร์ นาย 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0415, best cost 29.7805 + -33.1664 = -3.38595 over 171 frames.
+pepe0415 เปลี่ยน บีม ไอซ์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0416, best cost 22.3793 + -38.5378 = -16.1585 over 171 frames.
+pepe0416 เปลี่ยน ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0417, best cost 23.4159 + -19.6899 = 3.72602 over 161 frames.
+pepe0417 นาย เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0418, best cost 19.5551 + -36.0779 = -16.5228 over 171 frames.
+pepe0418 เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0419, best cost 22.3564 + -23.456 = -1.09965 over 161 frames.
+pepe0419 เปลี่ยน ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0420, best cost 24.7182 + -34.7636 = -10.0454 over 180 frames.
+pepe0420 เลือก ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0421, best cost 23.061 + -34.1442 = -11.0832 over 161 frames.
+pepe0421 เปลี่ยน ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0422, best cost 30.5597 + -29.579 = 0.980692 over 180 frames.
+pepe0422 เลือก ซุปเปอร์ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0423, best cost 25.7179 + -35.8602 = -10.1423 over 208 frames.
+pepe0423 วิง ไซต์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0424, best cost 26.219 + -32.6645 = -6.44555 over 143 frames.
+pepe0424 ควิก เสิร์ฟ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0425, best cost 30.4975 + -42.7082 = -12.2107 over 171 frames.
+pepe0425 ซุปเปอร์ ตัว โวลต์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0426, best cost 19.4872 + -30.7441 = -11.2569 over 171 frames.
+pepe0426 ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0427, best cost 20.2481 + -28.5576 = -8.30951 over 115 frames.
+pepe0427 เลือก บีม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0428, best cost 19.9805 + -29.0619 = -9.08139 over 124 frames.
+pepe0428 เปลี่ยน โวลต์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0429, best cost 16.1364 + -41.4155 = -25.2791 over 143 frames.
+pepe0429 ล้าง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0430, best cost 19.121 + -35.5183 = -16.3972 over 171 frames.
+pepe0430 เล่น เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0431, best cost 34.7905 + -38.8623 = -4.07178 over 161 frames.
+pepe0431 เปลี่ยน ไอซ์ กลับ โวลต์ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0432, best cost 22.9788 + -39.4571 = -16.4782 over 152 frames.
+pepe0432 นาย กลับ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0433, best cost 21.9249 + -40.4898 = -18.5649 over 152 frames.
+pepe0433 เลือก ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0434, best cost 22.0636 + -28.8482 = -6.7846 over 152 frames.
+pepe0434 เลือก เปลี่ยน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0435, best cost 27.4037 + -33.9695 = -6.56586 over 161 frames.
+pepe0435 เลือก ไฮโดร พิโรธ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0436, best cost 22.7941 + -20.7231 = 2.07097 over 161 frames.
+pepe0436 ลิซาดอน ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0437, best cost 19.3401 + -18.7304 = 0.609703 over 208 frames.
+pepe0437 ไฮโดร 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0438, best cost 40.7317 + -40.1393 = 0.592438 over 180 frames.
+pepe0438 บอดี้ เลือก ไฮโดร สแปลช 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0439, best cost 36.2232 + -37.0365 = -0.81329 over 198 frames.
+pepe0439 เลือก โบลต์ ตัว ลาปลาซ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0440, best cost 23.4969 + -41.2898 = -17.7929 over 180 frames.
+pepe0440 เลือก ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0441, best cost 30.6222 + -38.231 = -7.60886 over 217 frames.
+pepe0441 ท้า โบลต์ ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0442, best cost 33.0555 + -31.1668 = 1.88872 over 161 frames.
+pepe0442 ตัว บีม ไฟฟ้า 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 235 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0443, best cost 32.4288 + -24.6621 = 7.76673 over 180 frames.
+pepe0443 นัทธี บอดี้ ท้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0444, best cost 26.9841 + -39.9117 = -12.9275 over 180 frames.
+pepe0444 วิง ไฟฟ้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0445, best cost 26.1897 + -50.509 = -24.3193 over 189 frames.
+pepe0445 นัทธี บอดี้ 
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 235 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0446, best cost 25.5981 + -25.8968 = -0.298664 over 198 frames.
+pepe0446 นัทธี พิโรธ 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is -0.0225515 = 0.151237 [graph] + -0.173788 [acoustic] over 40177 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 235 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Apr 30 04:29:03 UTC 2019, elapsed time 1 seconds

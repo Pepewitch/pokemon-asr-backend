@@ -1,0 +1,46 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_dev/per_utt/utt2spk.4 "ark,s,cs:wav-copy scp,p:data/train/split5/4/wav.scp ark:- |" "ark:|gzip -c > exp/nnet2_online/decode_dev/lat.4.gz" 
+# Started at Mon Apr 29 13:16:37 UTC 2019
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_dev/per_utt/utt2spk.4 'ark,s,cs:wav-copy scp,p:data/train/split5/4/wav.scp ark:- |' 'ark:|gzip -c > exp/nnet2_online/decode_dev/lat.4.gz' 
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:203) Done.
+wav-copy scp,p:data/train/split5/4/wav.scp ark:- 
+james0000 นาย ท้า อติวงศ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0000
+james0001 อติวงศ์ ท้า นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0001
+james0002 พีรพล ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0002
+james0003 พีรพล ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0003
+james0004 พีรพล ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0004
+james0005 อติวงศ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0005
+james0006 พีรพล ฉัน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0006
+james0007 พีรพล ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0007
+james0008 อติวงศ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0008
+james0009 นาย ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0009
+james0010 พีรพล อติวงศ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0010
+james0011 พีรพล ปิกาจู ไคริว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0011
+james0012 พีรพล ฉัน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0012
+james0013 ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0013
+LOG (wav-copy:main():wav-copy.cc:56) Copied 15 wave files
+james0014 อติวงศ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance james0014
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.05855 (note: this cannot be less than one.)
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.169042 seconds.
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 70.4692
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 0.544538 seconds for utterance 'james0006'
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:278) Decoded 15 utterances, 0 with errors.
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was 0.214327 per frame over 4305 frames.
+# Accounting: time=15 threads=1
+# Ended (code 0) at Mon Apr 29 13:16:52 UTC 2019, elapsed time 15 seconds

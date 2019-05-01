@@ -1,0 +1,486 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_dev/per_utt/utt2spk.1 "ark,s,cs:wav-copy scp,p:data/train/split1/1/wav.scp ark:- |" "ark:|gzip -c > exp/nnet2_online/decode_dev/lat.1.gz" 
+# Started at Tue Apr 30 04:25:46 UTC 2019
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_dev/per_utt/utt2spk.1 'ark,s,cs:wav-copy scp,p:data/train/split1/1/wav.scp ark:- |' 'ark:|gzip -c > exp/nnet2_online/decode_dev/lat.1.gz' 
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:203) Done.
+wav-copy scp,p:data/train/split1/1/wav.scp ark:- 
+pepe0000 เปลี่ยน ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0000
+pepe0001 เลือก ไอซ์ แสลม ลาปลาซ คลอว์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0001
+pepe0002 เปลี่ยน อติวงศ์ มา เปลี่ยน เลือก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0002
+pepe0003 เปลี่ยน ตัว โพชั่น มา เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0003
+pepe0004 เปลี่ยน ธันเดอร์ คลอว์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0004
+pepe0005 เปลี่ยน ตัว ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0005
+pepe0006 วิง โพชั่น 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0006
+pepe0007 แสลม ควิก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0007
+pepe0008 เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0008
+pepe0009 เปลี่ยน เกม เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0009
+pepe0010 ไฮเปอร์ เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0010
+pepe0011 เลือก กลับ ไฮเปอร์ เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0011
+pepe0012 ล้าง เกม เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0012
+pepe0013 ลาปลาซ ฉัน เลือก นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0013
+pepe0014 เปลี่ยน ไฮเปอร์ เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0014
+pepe0015 วิง ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0015
+pepe0016 เปลี่ยน ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0016
+pepe0017 เปลี่ยน แอทแทค 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0017
+pepe0018 เปลี่ยน ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0018
+pepe0019 เปลี่ยน ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0019
+pepe0020 เปลี่ยน ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0020
+pepe0021 เปลี่ยน ตัว โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0021
+pepe0022 เปลี่ยน ไอร่อน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0022
+pepe0023 วิง ลิซาดอน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0023
+pepe0024 วิง เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0024
+pepe0025 เปลี่ยน ตัว ลิซาดอน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0025
+pepe0026 เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0026
+pepe0027 ลิซาดอน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0027
+pepe0028 เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0028
+pepe0029 เลือก ไอซ์ ไคริว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0029
+pepe0030 เลือก เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0030
+pepe0031 เลือก ตัว กลับ เลือก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0031
+pepe0032 เลือก เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0032
+pepe0033 เลือก นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0033
+pepe0034 เลือก เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0034
+pepe0035 ลาปลาซ ลาปลาซ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0035
+pepe0036 เปลี่ยน ไฮโดร เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0036
+pepe0037 เปลี่ยน ตัว ไอซ์ ลาปลาซ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0037
+pepe0038 เลือก ลาปลาซ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0038
+pepe0039 ไฮโดร ควิก ลาปลาซ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0039
+pepe0040 ตัว เกม ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0040
+pepe0041 เลือก ตัว โบลต์ เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0041
+pepe0042 กลับ โบลต์ เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0042
+pepe0043 ลาปลาซ ใช้ ลาปลาซ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0043
+pepe0044 กลับ มา คอยคิง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0044
+pepe0045 โวลต์ บีม บอดี้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0045
+pepe0046 ลาปลาซ ซุปเปอร์ เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0046
+pepe0100 ท้า นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0100
+pepe0101 เลือก ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0101
+pepe0102 นัทธี ธันเดอร์ คลอว์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0102
+pepe0103 ขอ ไฮโดร บอดี้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0103
+pepe0104 คอยคิง ฉัน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0104
+pepe0105 ขอ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0105
+pepe0106 เลือก โบลต์ ไอซ์ สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0106
+pepe0107 เรจช์ โบลต์ เกม ไอซ์ สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0107
+pepe0108 เลือก โบลต์ ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0108
+pepe0109 นาย ไฮเปอร์ สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0109
+pepe0110 ล้าง ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0110
+pepe0111 เปลี่ยน ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0111
+pepe0112 ลิซาดอน ขอ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0112
+pepe0113 ลาปลาซ บอดี้ เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0113
+pepe0114 ขอ ท้า นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0114
+pepe0115 ตัว โบลต์ ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0115
+pepe0116 โบลต์ ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0116
+pepe0117 ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0117
+pepe0118 นัทธี ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0118
+pepe0119 เลือก ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0119
+pepe0120 ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0120
+pepe0121 เปลี่ยน ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0121
+pepe0122 เลือก ซุปเปอร์ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0122
+pepe0123 เลือก ซุปเปอร์ ไอซ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0123
+pepe0124 เลือก ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0124
+pepe0125 ลิซาดอน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0125
+pepe0126 ลิซาดอน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0126
+pepe0127 เลือก บอดี้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0127
+pepe0128 เปลี่ยน โวลต์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0128
+pepe0129 ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0129
+pepe0130 เลือก โวลต์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0130
+pepe0131 เปลี่ยน ไอซ์ กลับ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0131
+pepe0132 เลือก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0132
+pepe0133 เลือก ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0133
+pepe0134 ลิซาดอน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0134
+pepe0135 ลาปลาซ ไฮโดร 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0135
+pepe0136 บอดี้ เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0136
+pepe0137 ลิซาดอน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0137
+pepe0138 ลิซาดอน ไอซ์ สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0138
+pepe0139 เลือก บีม บอดี้ พิโรธ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0139
+pepe0140 เลือก ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0140
+pepe0141 เปลี่ยน ตัว ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0141
+pepe0142 ตัว ท้า ไคริว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0142
+pepe0143 นัทธี เทลล์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0143
+pepe0144 วิง ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0144
+pepe0145 นัทธี ท้า บอดี้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0145
+pepe0146 นัทธี ฉัน ขอ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0146
+pepe0200 ท้า ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0200
+pepe0201 เปลี่ยน ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0201
+pepe0202 เลือก ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0202
+pepe0203 ลิซาดอน บีม บอดี้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0203
+pepe0204 คอยคิง เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0204
+pepe0205 เลือก นาย ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0205
+pepe0206 ควิก วิง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0206
+pepe0207 ท้า ไฮเปอร์ สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0207
+pepe0208 เลือก โบลต์ ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0208
+pepe0209 นาย ไฮเปอร์ สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0209
+pepe0210 ล้าง ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0210
+pepe0211 เปลี่ยน ซุปเปอร์ พิโรธ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0211
+pepe0212 ล้าง ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0212
+pepe0213 วิง ปั๊มพ์ ไซต์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0213
+pepe0214 เปลี่ยน ซุปเปอร์ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0214
+pepe0215 เลือก เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0215
+pepe0216 เลือก ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0216
+pepe0217 ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0217
+pepe0218 เลือก เทลล์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0218
+pepe0219 เปลี่ยน ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0219
+pepe0220 เล่น เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0220
+pepe0221 ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0221
+pepe0222 ซุปเปอร์ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0222
+pepe0223 วิง โบลต์ ไอซ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0223
+pepe0224 วิง เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0224
+pepe0225 ลำแสง ขอ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0225
+pepe0226 นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0226
+pepe0227 เลือก บีม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0227
+pepe0228 เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0228
+pepe0229 ล้าง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0229
+pepe0230 คอยคิง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0230
+pepe0231 เปลี่ยน ไอซ์ พีรพล 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0231
+pepe0232 นาย กลับ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0232
+pepe0233 ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0233
+pepe0234 เลือก เปลี่ยน ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0234
+pepe0235 ลาปลาซ ไฮโดร 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0235
+pepe0236 ลำแสง ลาปลาซ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0236
+pepe0237 นาย ไฮโดร 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0237
+pepe0238 ลิซาดอน สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0238
+pepe0239 เลือก นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0239
+pepe0240 เลือก ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0240
+pepe0241 ตัว ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0241
+pepe0242 เลือก ตัว บีม ไอซ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0242
+pepe0243 สวิฟฟ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0243
+pepe0244 ตัว มา ไฮเปอร์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0244
+pepe0245 ลาปลาซ บอดี้ ไคริว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0245
+pepe0246 ลาปลาซ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0246
+pepe0300 นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0300
+pepe0301 ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0301
+pepe0302 นัทธี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0302
+pepe0303 เลือก ซุปเปอร์ ตัว บอดี้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0303
+pepe0304 นัทธี เกม นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0304
+pepe0305 เกม ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0305
+pepe0306 วิง พิโรธ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0306
+pepe0307 เปลี่ยน ตัว เกม ไอซ์ วิง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0307
+pepe0308 เลือก โบลต์ ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0308
+pepe0309 เปลี่ยน ซุปเปอร์ เลือก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0309
+pepe0310 เลือก เลือก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0310
+pepe0311 ลิซาดอน เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0311
+pepe0312 นาย ไฮโดร ปิกาจู 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0312
+pepe0313 ลาปลาซ บอดี้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0313
+pepe0314 เลือก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0314
+pepe0315 เลือก ท้า โบลต์ ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0315
+pepe0316 ลาปลาซ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0316
+pepe0317 เลือก นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0317
+pepe0318 เลือก ไอซ์ ไฮเปอร์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0318
+pepe0319 เปลี่ยน ขอ คลอว์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0319
+pepe0320 เลือก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0320
+pepe0321 เปลี่ยน เอกพล 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0321
+pepe0322 เลือก พีรพล คลอว์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0322
+pepe0323 วิง โบลต์ ไอซ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0323
+pepe0324 วิง เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0324
+pepe0325 เลือก ซุปเปอร์ ตัว โวลต์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0325
+pepe0326 บีม ไฮเปอร์ เทลล์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0326
+pepe0327 ลิซาดอน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0327
+pepe0328 เลือก สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0328
+pepe0329 เลือก ไอซ์ ไคริว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0329
+pepe0330 เลือก นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0330
+pepe0331 เลือก ตัว ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0331
+pepe0332 นาย กลับ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0332
+pepe0333 เลือก ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0333
+pepe0334 เลือก เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0334
+pepe0335 นาย ไฮโดร สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0335
+pepe0336 ลิซาดอน สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0336
+pepe0337 ลิซาดอน พิโรธ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0337
+pepe0338 บอดี้ แสลม บอดี้ แสลม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0338
+pepe0339 เลือก เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0339
+pepe0340 เปลี่ยน ซุปเปอร์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0340
+pepe0341 นัทธี ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0341
+pepe0342 นัทธี เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0342
+pepe0343 ซุปเปอร์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0343
+pepe0344 ลาปลาซ มา ไฮเปอร์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0344
+pepe0345 ลาปลาซ บอดี้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0345
+pepe0346 นัทธี เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0346
+pepe0400 ท้า ไฮเปอร์ สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0400
+pepe0401 ตัว นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0401
+pepe0402 เปลี่ยน ตัว ไอซ์ พีรพล นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0402
+pepe0403 เลือก นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0403
+pepe0404 เปลี่ยน ไฟฟ้า นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0404
+pepe0405 เรจช์ ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0405
+pepe0406 เปลี่ยน ตัว ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0406
+pepe0407 แสลม วิง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0407
+pepe0408 เรจช์ โบลต์ ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0408
+pepe0409 นัทธี ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0409
+pepe0410 เลือก ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0410
+pepe0411 เปลี่ยน ซุปเปอร์ พีรพล 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0411
+pepe0412 นาย ไฮโดร ขอ โบลต์ ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0412
+pepe0413 วิง เล่น เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0413
+pepe0414 เลือก ซุปเปอร์ นาย 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0414
+pepe0415 เปลี่ยน บีม ไอซ์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0415
+pepe0416 เปลี่ยน ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0416
+pepe0417 นาย เลือก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0417
+pepe0418 เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0418
+pepe0419 เปลี่ยน ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0419
+pepe0420 เลือก ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0420
+pepe0421 เปลี่ยน ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0421
+pepe0422 เลือก ซุปเปอร์ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0422
+pepe0423 วิง ไซต์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0423
+pepe0424 ควิก เสิร์ฟ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0424
+pepe0425 ซุปเปอร์ ตัว โวลต์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0425
+pepe0426 ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0426
+pepe0427 เลือก บีม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0427
+pepe0428 เปลี่ยน โวลต์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0428
+pepe0429 ล้าง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0429
+pepe0430 เล่น เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0430
+pepe0431 เปลี่ยน ตัว กลับ โวลต์ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0431
+pepe0432 นาย กลับ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0432
+pepe0433 เลือก ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0433
+pepe0434 เลือก เปลี่ยน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0434
+pepe0435 เลือก ไฮโดร พิโรธ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0435
+pepe0436 ลิซาดอน ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0436
+pepe0437 ไฮโดร 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0437
+pepe0438 ลิซาดอน สแปลช 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0438
+pepe0439 เลือก โบลต์ ตัว ลาปลาซ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0439
+pepe0440 เลือก ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0440
+pepe0441 ท้า โบลต์ ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0441
+pepe0442 ตัว บีม ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0442
+pepe0443 นัทธี บอดี้ ท้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0443
+pepe0444 วิง ไฟฟ้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0444
+LOG (wav-copy:main():wav-copy.cc:56) Copied 235 wave files
+pepe0445 นัทธี บอดี้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0445
+pepe0446 นัทธี พิโรธ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0446
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.1468 (note: this cannot be less than one.)
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.253876 seconds.
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 68.6909
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 1.1683 seconds for utterance 'pepe0022'
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:278) Decoded 235 utterances, 0 with errors.
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was 0.0122966 per frame over 40177 frames.
+# Accounting: time=189 threads=1
+# Ended (code 0) at Tue Apr 30 04:28:55 UTC 2019, elapsed time 189 seconds

@@ -30,4 +30,6 @@ app.post("/rec", upload.single("file"), (req, res) => {
   });
 });
 
-app.listen(5000);
+app.listen(process.env.PORT || 5000, () => {
+  console.log("Start server at port :", process.env.PORT || 5000);
+});

@@ -1,0 +1,5 @@
+node_modules
+upload/*
+__pycache
+model/tmp
+.DS_Store

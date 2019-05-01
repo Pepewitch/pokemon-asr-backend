@@ -23,6 +23,9 @@ app.post("/rec", upload.single("file"), (req, res) => {
     path
   ]);
   process.stdout.once("data", data => {
+    fs.unlink(path, err => {
+      console.error(err);
+    });
     res.status(200).send({ data: data.toString().trim() });
   });
 });

@@ -1,0 +1,76 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_dev/per_utt/utt2spk.1 "ark,s,cs:wav-copy scp,p:data/train/split2/1/wav.scp ark:- |" "ark:|gzip -c > exp/nnet2_online/decode_dev/lat.1.gz" 
+# Started at Thu May  2 01:05:54 UTC 2019
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_dev/per_utt/utt2spk.1 'ark,s,cs:wav-copy scp,p:data/train/split2/1/wav.scp ark:- |' 'ark:|gzip -c > exp/nnet2_online/decode_dev/lat.1.gz' 
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:203) Done.
+wav-copy scp,p:data/train/split2/1/wav.scp ark:- 
+pepe0000 เลือก เล่น ซ้ายบน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0000
+pepe0001 โกวาจี คน ที่ หนึ่ง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0001
+pepe0002 เลือก คู่ต่อสู้ สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0002
+pepe0003 เลือก คู่ต่อสู้ คน ท้า สี่ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0003
+pepe0004 เล่น คู่ต่อสู้ คน ที่ ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0004
+pepe0005 เลือก คู่ต่อสู้ คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0005
+pepe0006 เลือก คู่ต่อสู้ คน ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0006
+pepe0007 เลือก คู่ต่อสู้ คน ท้า สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0007
+pepe0008 เกม คู่ต่อสู้ คน ที่ ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0008
+pepe0009 เลือก คู่ต่อสู้ คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0009
+pepe0010 โกวาจี คู่ต่อสู้ คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0010
+pepe0011 โกวาจี คู่ต่อสู้ คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0011
+pepe0012 โกวาจี ท้า ห้า เล่น 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0012
+pepe0013 โกวาจี โกวาจี คู่ต่อสู้ คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0013
+pepe0014 โกวาจี คู่ต่อสู้ คน หนึ่ง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0014
+pepe0015 โกวาจี คู่ต่อสู้ คน ท้า สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0015
+pepe0016 คู่ต่อสู้ คน ที่ ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0016
+pepe0017 คู่ต่อสู้ คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0017
+pepe0018 เลือก คู่ต่อสู้ คน ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0018
+pepe0019 เลือก คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0019
+pepe0020 เลือก ตัว ที่ ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0020
+pepe0021 เล่น คู่ต่อสู้ คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0021
+pepe0022 คู่ต่อสู้ คน สี่ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0022
+pepe0023 ตัว คู่ต่อสู้ คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0023
+pepe0024 คู่ต่อสู้ คน ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0024
+pepe0025 เลือก คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0025
+pepe0026 คู่ต่อสู้ เลือก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0026
+pepe0027 คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0027
+pepe0028 คู่ต่อสู้ ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0028
+LOG (wav-copy:main():wav-copy.cc:56) Copied 30 wave files
+pepe0029 เลือก คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pepe0029
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.15208 (note: this cannot be less than one.)
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.421729 seconds.
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 71.6479
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 1.22649 seconds for utterance 'pepe0004'
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:278) Decoded 30 utterances, 0 with errors.
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was -0.0289486 per frame over 8259 frames.
+# Accounting: time=37 threads=1
+# Ended (code 0) at Thu May  2 01:06:31 UTC 2019, elapsed time 37 seconds

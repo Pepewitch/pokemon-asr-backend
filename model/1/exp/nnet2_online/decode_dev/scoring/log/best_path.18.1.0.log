@@ -1,0 +1,132 @@
+# lattice-scale --inv-acoustic-scale=18 "ark:gunzip -c exp/nnet2_online/decode_dev/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/nnet2_online/graph/words.txt ark:- ark,t:exp/nnet2_online/decode_dev/scoring/18.1.0.tra 
+# Started at Thu May  2 01:06:43 UTC 2019
+#
+lattice-scale --inv-acoustic-scale=18 'ark:gunzip -c exp/nnet2_online/decode_dev/lat.*.gz|' ark:- 
+lattice-best-path --word-symbol-table=exp/nnet2_online/graph/words.txt ark:- ark,t:exp/nnet2_online/decode_dev/scoring/18.1.0.tra 
+lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0000, best cost 31.7794 + -27.3688 = 4.41054 over 328 frames.
+pepe0000 เลือก เล่น ซ้ายบน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0001, best cost 30.8006 + -25.2683 = 5.53233 over 310 frames.
+pepe0001 โกวาจี คน สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0002, best cost 24.9423 + -4.49501 = 20.4473 over 273 frames.
+pepe0002 เลือก คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0003, best cost 26.9243 + -1.69299 = 25.2313 over 337 frames.
+pepe0003 เลือก คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0004, best cost 29.1536 + 10.8844 = 40.038 over 300 frames.
+pepe0004 เลือก คู่ต่อสู้ คน สี่ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0005, best cost 28.0064 + -34.3394 = -6.33293 over 300 frames.
+pepe0005 เลือก คู่ต่อสู้ คน สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0006, best cost 28.3123 + -13.2119 = 15.1005 over 300 frames.
+pepe0006 เลือก คู่ต่อสู้ คน หนึ่ง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0007, best cost 28.0103 + -4.04151 = 23.9687 over 263 frames.
+pepe0007 เลือก คู่ต่อสู้ คน สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0008, best cost 31.3942 + -10.0571 = 21.3371 over 291 frames.
+pepe0008 เลือก คู่ต่อสู้ คน ที่ ห้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0009, best cost 28.2659 + -26.5691 = 1.69683 over 310 frames.
+pepe0009 เลือก คู่ต่อสู้ คน สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0010, best cost 28.6925 + 4.00578 = 32.6983 over 291 frames.
+pepe0010 คู่ต่อสู้ คน สี่ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0011, best cost 29.923 + -3.19612 = 26.7269 over 300 frames.
+pepe0011 คู่ต่อสู้ คน สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0012, best cost 30.6335 + 1.68979 = 32.3233 over 328 frames.
+pepe0012 โกวาจี เล่น เล่น 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0013, best cost 31.9392 + -10.8497 = 21.0895 over 282 frames.
+pepe0013 โกวาจี คู่ต่อสู้ คน สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0014, best cost 34.2568 + -1.98246 = 32.2743 over 347 frames.
+pepe0014 โกวาจี คู่ต่อสู้ คน หนึ่ง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0015, best cost 45.7473 + -17.0618 = 28.6855 over 365 frames.
+pepe0015 คู่ต่อสู้ คน ท้า สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0016, best cost 34.6776 + -13.3695 = 21.3082 over 393 frames.
+pepe0016 คู่ต่อสู้ คน สี่ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0017, best cost 33.2959 + -28.7286 = 4.5673 over 347 frames.
+pepe0017 คู่ต่อสู้ คน สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0018, best cost 22.679 + 1.8274 = 24.5064 over 208 frames.
+pepe0018 เลือก คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0019, best cost 23.4653 + -2.19226 = 21.273 over 217 frames.
+pepe0019 เลือก คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0020, best cost 22.0442 + -5.31088 = 16.7333 over 226 frames.
+pepe0020 เลือก ตัว ที่ สี่ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0021, best cost 25.1502 + -20.7705 = 4.37975 over 217 frames.
+pepe0021 เลือก คู่ต่อสู้ คน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0022, best cost 18.1653 + -3.89815 = 14.2671 over 198 frames.
+pepe0022 ซ้ายบน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0023, best cost 26.2195 + -11.2473 = 14.9722 over 226 frames.
+pepe0023 โกวาจี คน สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0024, best cost 24.4903 + -0.462986 = 24.0273 over 208 frames.
+pepe0024 โกวาจี โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0025, best cost 23.03 + -4.52784 = 18.5022 over 180 frames.
+pepe0025 เลือก คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0026, best cost 21.7468 + 5.83746 = 27.5843 over 217 frames.
+pepe0026 ขอ เลือก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0027, best cost 17.588 + 0.441302 = 18.0293 over 208 frames.
+pepe0027 สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0028, best cost 33.1703 + -4.18775 = 28.9826 over 235 frames.
+pepe0028 คู่ต่อสู้ ห้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pepe0029, best cost 29.3115 + -11.1058 = 18.2057 over 254 frames.
+pepe0029 เลือก คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0000, best cost 33.8388 + -20.704 = 13.1348 over 339 frames.
+pang0000 โกวาจี คน ที่ ห้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0001, best cost 40.6475 + -17.7151 = 22.9323 over 311 frames.
+pang0001 สอง คน สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0002, best cost 30.7246 + -15.08 = 15.6446 over 357 frames.
+pang0002 เลือก คู่ต่อสู้ คน แรก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0003, best cost 34.0194 + -12.9623 = 21.0571 over 376 frames.
+pang0003 โกวาจี คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0004, best cost 31.7556 + -0.400318 = 31.3553 over 394 frames.
+pang0004 เลือก คู่ต่อสู้ คน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0005, best cost 33.7223 + -14.6573 = 19.065 over 432 frames.
+pang0005 เลือก คู่ต่อสู้ คน แรก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0006, best cost 36.6872 + -13.2244 = 23.4628 over 404 frames.
+pang0006 ท้า คู่ต่อสู้ คน สาม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0007, best cost 33.8809 + -5.68271 = 28.1981 over 394 frames.
+pang0007 โกวาจี คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0008, best cost 25.9916 + -18.1343 = 7.85738 over 404 frames.
+pang0008 โกวาจี เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0009, best cost 29.5839 + -10.4621 = 19.1218 over 394 frames.
+pang0009 โกวาจี ซ้ายบน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0010, best cost 36.9222 + -29.1135 = 7.80869 over 534 frames.
+pang0010 คู่ต่อสู้ คน แรก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0011, best cost 37.564 + -48.1613 = -10.5974 over 497 frames.
+pang0011 โกวาจี โกวาจี เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0012, best cost 62.9547 + -55.6546 = 7.30013 over 534 frames.
+pang0012 คู่ต่อสู้ ท้า คู่ต่อสู้ คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0013, best cost 44.7129 + -45.7894 = -1.07651 over 525 frames.
+pang0013 โกวาจี ท้า คู่ต่อสู้ คน สอง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0014, best cost 43.5461 + -26.1193 = 17.4268 over 506 frames.
+pang0014 โกวาจี ท้า คู่ต่อสู้ คน หนึ่ง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0015, best cost 43.6767 + -31.8038 = 11.8729 over 525 frames.
+pang0015 เลือก ท้า คู่ต่อสู้ คน แรก 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0016, best cost 39.4166 + -33.6967 = 5.71986 over 515 frames.
+pang0016 คู่ต่อสู้ ซ้ายบน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0017, best cost 33.132 + -35.9349 = -2.80287 over 506 frames.
+pang0017 คู่ต่อสู้ 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 60 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0018, best cost 22.2142 + -3.6652 = 18.549 over 283 frames.
+pang0018 โกวาจี เกม 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0019, best cost 19.7555 + -15.5981 = 4.15741 over 273 frames.
+pang0019 เลือก ตัว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0020, best cost 23.6699 + -2.94486 = 20.725 over 255 frames.
+pang0020 โกวาจี ซ้ายบน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0021, best cost 23.6993 + -15.0184 = 8.6809 over 255 frames.
+pang0021 โกวาจี ซ้ายบน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0022, best cost 25.0991 + -9.09183 = 16.0073 over 264 frames.
+pang0022 โกวาจี ซ้ายบน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0023, best cost 27.9325 + -14.8259 = 13.1066 over 264 frames.
+pang0023 เลือก คู่ต่อสู้ คน ห้า 
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 60 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0024, best cost 26.0637 + -18.7307 = 7.33294 over 311 frames.
+pang0024 โกวาจี ซ้ายบน 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0025, best cost 28.1368 + -14.8006 = 13.3362 over 357 frames.
+pang0025 โกวาจี ที่ ห้า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0026, best cost 31.2312 + -15.0243 = 16.2069 over 311 frames.
+pang0026 โกวาจี คู่ต่อสู้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0027, best cost 34.0077 + -13.7506 = 20.257 over 311 frames.
+pang0027 โกวาจี โกวาจี โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0028, best cost 26.5239 + -15.4792 = 11.0447 over 329 frames.
+pang0028 โกวาจี โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0029, best cost 26.7335 + -19.9616 = 6.77197 over 320 frames.
+pang0029 โกวาจี โกวาจี 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is 0.0494566 = 0.092794 [graph] + -0.0433374 [acoustic] over 19739 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 60 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu May  2 01:06:43 UTC 2019, elapsed time 0 seconds

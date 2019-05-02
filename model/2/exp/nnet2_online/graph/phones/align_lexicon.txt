@@ -1,0 +1,39 @@
+<SIL> <SIL> SIL_S
+<UNK> <UNK> UNK_S
+<eps> <eps> SIL
+กรงเล็บ กรงเล็บ kr_B o_I ng^_I l_I e_I p^_E
+กระแสไฟฟ้า กระแสไฟฟ้า kr_B a_I s_I xx_I f_I a_I j^_I f_I aa_E
+กลาง กลาง kl_B aa_I ng^_E
+ขนาด ขนาด kh_B a_I n_I aa_I t^_E
+คลื่น คลื่น khl_B vv_I n^_E
+งง งง ng_B o_I ng^_E
+จิต จิต c_B i_I t^_E
+ดิ้น ดิ้น d_B i_I n^_E
+ทำลาย ทำลาย th_B a_I m^_I l_I aa_I j^_E
+ท่า ท่า th_B aa_E
+น้ำแข็ง น้ำแข็ง n_B aa_I m^_I kh_I x_I ng^_E
+ปีก ปีก p_B ii_I k^_E
+พิโรธ พิโรธ ph_B i_I r_I oo_I t^_E
+พี่ตูน พี่ตูน ph_B ii_I t_I uu_I n^_E
+ฟ้าผ่า ฟ้าผ่า f_B aa_I ph_I aa_E
+มังกร มังกร m_B a_I ng^_I k_I @@_I n^_E
+มาก มาก m_B aa_I k^_E
+ยกเลิก ยกเลิก j_B o_I k^_I l_I qq_I k^_E
+ยา ยา j_B aa_E
+ย้อนกลับ ย้อนกลับ j_B @@_I n^_I kl_I a_I p^_E
+รวดเร็ว รวดเร็ว r_B uua_I t^_I r_I e_I w^_E
+ลำแสง ลำแสง l_B a_I m^_I s_I xx_I ng^_E
+ล้าง ล้าง l_B aa_I ng^_E
+ว่องไว ว่องไว w_B @_I ng^_I w_I a_I j^_E
+สาดน้ำ สาดน้ำ s_B aa_I t^_I n_I aa_I m^_E
+หางเหล็ก หางเหล็ก h_B aa_I ng^_I l_I e_I k^_E
+อยู่ไม่สุข อยู่ไม่สุข j_B uu_I m_I a_I j^_I s_I u_I k^_E
+อย่าง อย่าง j_B aa_I ng^_E
+เครื่องสูบน้ำ เครื่องสูบน้ำ khr_B vva_I ng^_I s_I uu_I p^_I n_I aa_I m^_E
+เล็ก เล็ก l_B e_I k^_E
+โจมตี โจมตี c_B oo_I m^_I t_I ii_E
+โต้ โต้ t_B oo_E
+โยน โยน j_B oo_I n^_E
+ใช้ ใช้ ch_B a_I j^_E
+ใหญ่ ใหญ่ j_B a_I j^_E
+ไฟ ไฟ f_B a_I j^_E

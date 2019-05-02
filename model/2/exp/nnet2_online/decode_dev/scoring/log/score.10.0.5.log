@@ -1,0 +1,5 @@
+# cat exp/nnet2_online/decode_dev/scoring/10.0.5.tra | utils/int2sym.pl -f 2- exp/nnet2_online/graph/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:exp/nnet2_online/decode_dev/scoring/test_filt.txt ark,p:- >& exp/nnet2_online/decode_dev/wer_10_0.5 
+# Started at Thu May  2 03:00:07 UTC 2019
+#
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu May  2 03:00:08 UTC 2019, elapsed time 1 seconds

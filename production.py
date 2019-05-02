@@ -78,7 +78,7 @@ class MyClient(WebSocketClient):
                     print_trans = trans.replace("\n", "\\n")
                     if len(print_trans) > 80:
                         print_trans = "... %s" % print_trans[-76:]
-                    # print(80, '\r%s' % print_trans,)
+                    # print('\r%s' % print_trans,)
             if 'adaptation_state' in response:
                 if self.save_adaptation_state_filename:
                     # print(83, "Saving adaptation state to %s" % self.save_adaptation_state_filename)

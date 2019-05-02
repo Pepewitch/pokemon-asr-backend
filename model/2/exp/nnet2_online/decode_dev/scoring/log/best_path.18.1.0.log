@@ -1,0 +1,64 @@
+# lattice-scale --inv-acoustic-scale=18 "ark:gunzip -c exp/nnet2_online/decode_dev/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/nnet2_online/graph/words.txt ark:- ark,t:exp/nnet2_online/decode_dev/scoring/18.1.0.tra 
+# Started at Thu May  2 03:00:07 UTC 2019
+#
+lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- 
+lattice-scale --inv-acoustic-scale=18 'ark:gunzip -c exp/nnet2_online/decode_dev/lat.*.gz|' ark:- 
+lattice-best-path --word-symbol-table=exp/nnet2_online/graph/words.txt ark:- ark,t:exp/nnet2_online/decode_dev/scoring/18.1.0.tra 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0030, best cost 38.3155 + -42.5119 = -4.19637 over 413 frames.
+pang0030 ยกเลิก ท่า รวดเร็ว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0031, best cost 40.7942 + -23.7504 = 17.0438 over 357 frames.
+pang0031 โจมตี ท่า ท่า ฟ้าผ่า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0032, best cost 38.0409 + -28.5034 = 9.53755 over 394 frames.
+pang0032 ฟ้าผ่า ท่า งง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0033, best cost 51.5599 + -55.6768 = -4.11689 over 571 frames.
+pang0033 ไฟ ท่า ท่า ว่องไว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0034, best cost 22.0062 + -13.7085 = 8.29771 over 153 frames.
+pang0034 ใช้ ท่า โต้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0035, best cost 11.6721 + -3.52601 = 8.14609 over 153 frames.
+pang0035 ใช้ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0036, best cost 29.0531 + -23.8855 = 5.16754 over 432 frames.
+pang0036 ยกเลิก รวดเร็ว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0037, best cost 36.5863 + -26.6545 = 9.93181 over 339 frames.
+pang0037 ไฟ ท่า ฟ้าผ่า 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0038, best cost 30.4553 + -18.0447 = 12.4106 over 367 frames.
+pang0038 ยกเลิก ท่า จิต 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0039, best cost 33.0416 + -30.2071 = 2.83451 over 357 frames.
+pang0039 ไฟ อยู่ไม่สุข 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0040, best cost 47.8003 + -44.8965 = 2.90387 over 571 frames.
+pang0040 ยกเลิก ท่า ปีก รวดเร็ว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0041, best cost 31.3826 + -17.7775 = 13.605 over 311 frames.
+pang0041 ไฟ รวดเร็ว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0042, best cost 39.7158 + -56.4842 = -16.7684 over 646 frames.
+pang0042 โจมตี อย่าง รวดเร็ว งง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0043, best cost 46.9715 + -38.3455 = 8.62601 over 543 frames.
+pang0043 ไฟ รวดเร็ว พิโรธ 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0044, best cost 32.7233 + -27.1336 = 5.58971 over 422 frames.
+pang0044 ยกเลิก น้ำแข็ง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0045, best cost 27.4065 + -22.3829 = 5.02359 over 460 frames.
+pang0045 รวดเร็ว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0046, best cost 40.467 + -21.3711 = 19.0958 over 385 frames.
+pang0046 ยกเลิก น้ำแข็ง น้ำแข็ง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0047, best cost 35.9089 + -23.0388 = 12.8701 over 367 frames.
+pang0047 ไฟ ท่า งง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0048, best cost 30.5017 + -11.8492 = 18.6526 over 264 frames.
+pang0048 ไฟ รวดเร็ว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0049, best cost 31.8854 + -17.6548 = 14.2307 over 311 frames.
+pang0049 ยกเลิก ท่า งง 
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 26 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0050, best cost 38.9654 + -17.587 = 21.3784 over 441 frames.
+pang0050 ไฟ ท่า งง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0051, best cost 31.2493 + -19.7475 = 11.5018 over 404 frames.
+pang0051 ยกเลิก รวดเร็ว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0052, best cost 34.4236 + -27.5189 = 6.90472 over 311 frames.
+pang0052 ไฟ ท่า ปีก 
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 26 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0053, best cost 32.5812 + -29.6156 = 2.96561 over 432 frames.
+pang0053 โจมตี ท่า งง 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0054, best cost 27.2227 + -17.0582 = 10.1645 over 329 frames.
+pang0054 ยกเลิก รวดเร็ว 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance pang0055, best cost 34.9559 + -18.3582 = 16.5977 over 311 frames.
+pang0055 ไฟ ท่า พี่ตูน 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall score per frame is 0.0217441 = 0.0891762 [graph] + -0.0674321 [acoustic] over 10044 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 26 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu May  2 03:00:07 UTC 2019, elapsed time 0 seconds

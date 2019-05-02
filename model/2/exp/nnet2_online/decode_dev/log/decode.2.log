@@ -1,0 +1,76 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_dev/per_utt/utt2spk.2 "ark,s,cs:wav-copy scp,p:data/train/split2/2/wav.scp ark:- |" "ark:|gzip -c > exp/nnet2_online/decode_dev/lat.2.gz" 
+# Started at Thu May  2 01:05:54 UTC 2019
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_dev/per_utt/utt2spk.2 'ark,s,cs:wav-copy scp,p:data/train/split2/2/wav.scp ark:- |' 'ark:|gzip -c > exp/nnet2_online/decode_dev/lat.2.gz' 
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:203) Done.
+wav-copy scp,p:data/train/split2/2/wav.scp ark:- 
+pang0000 โกวาจี คน ที่ ห้า เล่น แรก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0000
+pang0001 ห้า สอง คน สอง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0001
+pang0002 โกวาจี ตัว คู่ต่อสู้ คน แรก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0002
+pang0003 โกวาจี คู่ต่อสู้ คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0003
+pang0004 โกวาจี คู่ต่อสู้ คน ที่ ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0004
+pang0005 โกวาจี คู่ต่อสู้ คู่ต่อสู้ คน แรก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0005
+pang0006 ท้า คู่ต่อสู้ คน สาม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0006
+pang0007 โกวาจี ตัว ขอ เลือก คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0007
+pang0008 โกวาจี เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0008
+pang0009 โกวาจี คู่ต่อสู้ คน สี่ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0009
+pang0010 คู่ต่อสู้ คน แรก 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0010
+pang0011 โกวาจี โกวาจี เกม 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0011
+pang0012 เลือก คู่ต่อสู้ ท้า คู่ต่อสู้ คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0012
+pang0013 โกวาจี ท้า คู่ต่อสู้ คน ที่ สอง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0013
+pang0014 คู่ต่อสู้ คู่ต่อสู้ คน หนึ่ง 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0014
+pang0015 เลือก คู่ต่อสู้ ท้า คู่ต่อสู้ คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0015
+pang0016 ตัว ท้า คู่ต่อสู้ ซ้ายบน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0016
+pang0017 โกวาจี ท้า คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0017
+pang0018 โกวาจี เริ่ม เกม ซ้ายบน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0018
+pang0019 ห้า ตัว 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0019
+pang0020 โกวาจี ซ้ายบน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0020
+pang0021 โกวาจี ซ้ายบน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0021
+pang0022 โกวาจี ซ้ายบน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0022
+pang0023 เลือก คู่ต่อสู้ คน ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0023
+pang0024 โกวาจี ซ้ายบน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0024
+pang0025 ขอ เลือก ตัว ที่ ห้า 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0025
+pang0026 โกวาจี คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0026
+pang0027 โกวาจี ห้า โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0027
+pang0028 โกวาจี คู่ต่อสู้ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0028
+LOG (wav-copy:main():wav-copy.cc:56) Copied 30 wave files
+pang0029 โกวาจี โกวาจี 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance pang0029
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.11582 (note: this cannot be less than one.)
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.445555 seconds.
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 73.2244
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 1.86768 seconds for utterance 'pang0007'
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:278) Decoded 30 utterances, 0 with errors.
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was 0.0195395 per frame over 11480 frames.
+# Accounting: time=45 threads=1
+# Ended (code 0) at Thu May  2 01:06:39 UTC 2019, elapsed time 45 seconds

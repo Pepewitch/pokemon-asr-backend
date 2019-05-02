@@ -12,19 +12,30 @@ app.use(bodyParser());
 
 const upload = multer({ dest: "upload" });
 
+/**
+ * @param page
+ * /
+ * /enemy
+ * /pokemon
+ * /battle
+ */
 app.post("/rec", upload.single("file"), (req, res) => {
   const { path } = req.file;
+  console.log(`req from : ${req.body.page}`);
+  const KALDI_PORT = req.body.page === "/battle" ? 8081 : 8080;
   const process = spawn("python3", [
     "production.py",
     "-u",
-    "ws://localhost:8080/client/ws/speech",
+    `ws://localhost:${KALDI_PORT}/client/ws/speech`,
     "-r",
     "32000",
     path
   ]);
   process.stdout.once("data", data => {
     fs.unlink(path, err => {
-      console.error(err);
+      if (err) {
+        console.error(err);
+      }
     });
     res.status(200).send({ data: data.toString().trim() });
   });

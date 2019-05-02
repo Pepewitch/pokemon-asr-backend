@@ -1,5 +1,6 @@
 node_modules
 upload/*
+test/*
 __pycache
 model/tmp
 .DS_Store

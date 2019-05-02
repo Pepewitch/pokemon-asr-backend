@@ -1,0 +1,33 @@
+<SIL> <SIL> SIL_S
+<UNK> <UNK> UNK_S
+<eps> <eps> SIL
+กลางบน กลางบน kl_B aa_I ng^_I b_I o_I n^_E
+กลางล่าง กลางล่าง kl_B aa_I ng^_I l_I aa_I ng^_E
+ขวาบน ขวาบน khw_B aa_I b_I o_I n^_E
+ขวาล่าง ขวาล่าง khw_B aa_I l_I aa_I ng^_E
+ขอ ขอ kh_B @@_E
+คน คน kh_B o_I n^_E
+คู่ต่อสู้ คู่ต่อสู้ kh_B uu_I t_I @@_I s_I uu_E
+ซ้ายบน ซ้ายบน s_B aa_I j^_I b_I o_I n^_E
+ซ้ายล่าง ซ้ายล่าง s_B aa_I j^_I l_I aa_I ng^_E
+ตัว ตัว t_B uua_E
+ที่ ที่ th_B ii_E
+ที่สอง ที่สอง th_B ii_I s_I @@_I ng^_E
+ที่สาม ที่สาม th_B ii_I s_I aa_I m^_E
+ที่สี่ ที่สี่ th_B ii_I s_I ii_E
+ที่หก ที่หก th_B ii_I k^_E
+ที่หนึ่ง ที่หนึ่ง th_B ii_I n_I v_I ng^_E
+ที่ห้า ที่ห้า th_B ii_I h_I aa_E
+ท้า ท้า th_B aa_E
+สอง สอง s_B @@_I ng^_E
+สาม สาม s_B aa_I m^_E
+สี่ สี่ s_B ii_E
+หก หก h_B o_I k^_E
+หนึ่ง หนึ่ง n_B v_I ng^_E
+ห้า ห้า h_B aa_E
+เกม เกม k_B o_I m^_E
+เริ่ม เริ่ม r_B qq_I m^_E
+เลือก เลือก l_B vva_I k^_E
+เล่น เล่น l_B e_I n^_E
+แรก แรก r_B xx_I k^_E
+โกวาจี โกวาจี k_B oo_I w_I aa_I c_I ii_E

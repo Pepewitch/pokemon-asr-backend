@@ -1,12 +1,22 @@
 version: "3.7"
 
 services:
-  kaldi:
-    image: burin010n/docker-kaldi-gstreamer-server:latest
+  kaldi1:
+    image: burin010n/burin010n/kaldi-gstreamer-server:latest
     ports:
       - 8080:80
     volumes:
-      - ./model:/opt/models
+      - ./model/1:/opt/models
+    command: 
+      - sh
+      - -c
+      - /opt/models/script.sh
+  kaldi2:
+    image: burin010n/burin010n/kaldi-gstreamer-server:latest
+    ports:
+      - 8081:80
+    volumes:
+      - ./model/2:/opt/models
     command: 
       - sh
       - -c

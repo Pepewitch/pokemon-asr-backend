@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const spawn = require("child_process").spawn;
+const ffmpeg = require('fluent-ffmpeg');
 
 const cors = require("cors");
 const bodyParser = require("body-parser");
@@ -11,6 +12,27 @@ app.use(cors());
 app.use(bodyParser());
 
 const upload = multer({ dest: "upload" });
+
+const mp3ToWav = (src,dest) => {
+return new Promise((res) => {
+  ffmpeg(src)
+  .toFormat('wav')
+  .audioFrequency(16000)
+  .on('error', (err) => {
+      console.log('An error occurred: ' + err.message);
+  })
+  .on('progress', (progress) => {
+      // console.log(JSON.stringify(progress));
+      console.log('Processing: ' + progress.targetSize + ' KB converted');
+  })
+  .on('end', () => {
+      console.log('Processing finished !');
+      res()
+  })
+  .save(dest);//path where you want to save your file
+
+})
+}
 
 /**
  * @param page
@@ -41,6 +63,8 @@ app.post("/rec", upload.single("file"), (req, res) => {
   });
 });
 
-app.listen(process.env.PORT || 5000, () => {
-  console.log("Start server at port :", process.env.PORT || 5000);
-});
+mp3ToWav('./filename.mp3', 'filename.wav')
+
+// app.listen(process.env.PORT || 5000, () => {
+//   console.log("Start server at port :", process.env.PORT || 5000);
+// });

@@ -71,21 +71,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-## Built With
-
--   [Koa](https://koajs.com/) - The library implements backend.
-
-## Endpoints
-
-### GET /getJobById/:id
-
-```bash
-Get all tasks by Id of drivers
-```
-
-### POST /submitJob
-
-```bash
-Sent the finished task
-```
